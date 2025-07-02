@@ -28,13 +28,18 @@ section.grid {
 
 
 
+nav a {
+  color: #333;
+  text-decoration: none;
+  padding: 0.5em 1em;
+  transition: background-color 0.3s, color 0.3s;
+}
+
 nav a.active {
+  color: #333;
   font-weight: bold;
-  color: rgb(0, 117, 172);
-  border-bottom: 2px solid;
-  padding-bottom: 2px;
-
-
+  padding: 0.5em 1em;
+  transition: background-color 0.3s, color 0.3s;
 }
 
 /* Main content: flex layout for Home and other pages */
