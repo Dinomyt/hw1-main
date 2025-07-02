@@ -1,0 +1,61 @@
+body {
+    background-color: black;
+    color: gray;
+}
+
+header, main, nav, footer {
+    text-align: center;
+}
+
+
+/* External stylesheet: css/styles.css */
+
+/* Base styles */
+body {
+  background-image: url('../img/bg.jpg');
+  font-family: 'Open Sans', sans-serif;
+  color: black;
+  margin: 0;
+  padding: 0;
+}
+
+section.grid {
+  display: grid;                              /* ← new */
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* ← new */
+  gap: 1rem;                                  /* ← new */
+  padding: 1rem;
+}
+
+
+
+nav a.active {
+  font-weight: bold;
+  color: rgb(0, 117, 172);
+  border-bottom: 2px solid;
+  padding-bottom: 2px;
+
+
+}
+
+/* Main content: flex layout for Home and other pages */
+main {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 2em;
+  padding: 2em;
+}
+
+/* Footer styling: smaller font & different color */
+footer {
+  text-align: center;
+  padding: 1em 0;
+  font-size: 0.8em;
+  color: #777;
+}
+footer img {
+  max-width: 80px;
+  display: block;
+  margin: 0.5em auto;
+}
