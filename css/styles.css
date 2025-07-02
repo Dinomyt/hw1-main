@@ -66,3 +66,10 @@ footer img {
   white-space: nowrap;
   border: 0;
 }
+
+  .row {
+    display: flex;            /* make children flow in a row */
+    flex-wrap: wrap;          /* wrap on smaller screens */
+    gap: 1rem;                /* space between columns */
+    justify-content: space-between;
+  }
