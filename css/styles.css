@@ -7,10 +7,6 @@ header, main, nav, footer {
     text-align: center;
 }
 
-
-/* External stylesheet: css/styles.css */
-
-/* Base styles */
 body {
   background-image: url('../img/bg.jpg');
   font-family: 'Open Sans', sans-serif;
@@ -20,15 +16,13 @@ body {
 }
 
 section.grid {
-  display: grid;                              /* ← new */
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* ← new */
-  gap: 1rem;                                  /* ← new */
+  display: grid;                              
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); 
+  gap: 1rem;                                  
   padding: 1rem;
 }
 
-
-
-nav a {
+nav a{
   color: #333;
   text-decoration: none;
   padding: 0.5em 1em;
@@ -42,7 +36,6 @@ nav a.active {
   transition: background-color 0.3s, color 0.3s;
 }
 
-/* Main content: flex layout for Home and other pages */
 main {
   display: flex;
   flex-direction: row;
@@ -52,7 +45,6 @@ main {
   padding: 2em;
 }
 
-/* Footer styling: smaller font & different color */
 footer {
   text-align: center;
   padding: 1em 0;
